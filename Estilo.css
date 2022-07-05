@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+}
+
+body > *{
+  width: 100%;
+  border-bottom-width: 0;
+  box-sizing: border-box;
+}
+
+header,footer{
+  min-height: 90px;
+  background-color: grey;
+}
+
+header{
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  color: red;
+  font-family: Chiller;
+  font-size:40px;
+}
+
+header img{
+   float: right;
+}
+
+nav{
+  font-family: BankGothic Md BT;
+  background: grey;
+  color: black;
+}
+
+nav ul li{
+  float: none;
+  text-align: center;
+  list-style: none;
+  margin: 10px;
+  line-height: 3px;
+}
+
+aside{
+  width: 17%; 
+  background-color: grey;
+  border-right-width: 1px;
+}
+
+aside img{
+  width: 100%;
+  height: auto;
+}
+
+.container .body{
+  width: 75%;
+  background-color: lightgrey;
+}
+
+.container{
+  display: flex;
+}
+
+.article{
+  background-color: lightgrey;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-bottom: 2px; 
+  margin-right: 2px;
+  padding: 5px;
+  font-family: BankGothic Md BT;
+  color: black;
+}
+
+footer{
+  background-color: grey;
+  color: black;
+  text-align: center;
+  height: 50px; 
+  line-height: 15px;
+}
+
